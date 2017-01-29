@@ -5,7 +5,8 @@ import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Component
 
 /**
- * Created by jaimodha on 1/15/17.
+ * @author jaimodha
+ * @created 1/15/17
  */
 @Component
 interface ReadingListRepository extends JpaRepository<Book, Long> {
